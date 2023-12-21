@@ -158,7 +158,7 @@ public class themnhanvien extends javax.swing.JFrame {
           us.setUser_name(juser.getText());
           us.setLevel(cbonv.getSelectedIndex()+1);
       if(newuser.insertUser(us)>0){
-          JOptionPane.showMessageDialog(rootPane, "thanh cong");
+          JOptionPane.showMessageDialog(rootPane, "thanh  cong");
       }
       else JOptionPane.showMessageDialog(rootPane, "bat cong");
         

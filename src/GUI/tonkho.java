@@ -30,7 +30,7 @@ public class tonkho extends javax.swing.JFrame {
     
      public void hienthilentable(){
          sanphamDAO spDao = new sanphamDAO();
-        listsanpham =  spDao.allsanpham();
+        listsanpham =  spDao.allsanpham("");
         DefaultTableModel tblsp = (DefaultTableModel)listsp.getModel(); 
         tblsp.setRowCount(0);
         for(san_pham sa : listsanpham){

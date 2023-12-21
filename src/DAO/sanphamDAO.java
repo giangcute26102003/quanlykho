@@ -19,12 +19,14 @@ import java.util.Vector;
  * @author gjang
  */
 public class sanphamDAO extends connect{
-   public ArrayList<san_pham> allsanpham(){
+   public ArrayList<san_pham> allsanpham(String search){
         ArrayList<san_pham> allsp = new ArrayList<san_pham>();
         try {
             String sql = "Select sp.id,sp.name,sp.desc,sp.photo,sp.price,sp.quantity,nsx.name as namensx from sanpham sp "
-                    + "join nhasanxuat nsx on sp.id_nsx=nsx.id where sp.status=1 ";
+                    + "join nhasanxuat nsx on sp.id_nsx=nsx.id where sp.status=1 and sp.name like ? or sp.desc like ? ";
             PreparedStatement pre = con.prepareStatement(sql);
+            pre.setString(1, '%'+search+'%');
+            pre.setString(2, '%'+search+'%');
             ResultSet  rs = pre.executeQuery();
             while(rs.next()){
                 san_pham sp = new san_pham();

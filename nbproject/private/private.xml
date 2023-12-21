@@ -7,9 +7,15 @@
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/DAO/userDAO.java</file>
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/giaodienchinh.java</file>
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/info_login.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/DAO/sanphamDAO.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/sanpham_detail.java</file>
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/dangnhap.java</file>
-            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/themnhanvien.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/DTO/san_pham.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/tonkho.java</file>
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/quanlynhanvien.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/DAO/nsxDAO.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/themnhanvien.java</file>
+            <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/GUI/nhaphang.java</file>
             <file>file:/E:/java/NetBeansProjects/quanlykho_v2/src/DTO/user.java</file>
         </group>
     </open-files>
